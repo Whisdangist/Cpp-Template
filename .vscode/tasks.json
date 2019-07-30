@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "Solution.cc",
+                "-std=c++14",
+                "-pthread",
+                "-O0",
+                "-o",
+                "Solution",
+                "-ggdb",
+                "-D",
+                "OFFLINE"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
