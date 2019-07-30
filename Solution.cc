@@ -7,13 +7,14 @@ void solve() {
 
 int main() {
 	#ifdef OFFLINE
-	// freopen("input.txt", "r", stdin);
+	freopen("input.txt", "r", stdin);
 	// freopen("output.txt", "w", stdout);
 	#endif
 
 	solve();
 	
 	#ifdef OFFLINE
+	freopen("CON", "r", stdin);
 	system("pause");
 	#endif
 	return 0;
