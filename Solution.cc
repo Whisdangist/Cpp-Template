@@ -26,6 +26,7 @@ int main() {
 	freopen("input.txt", "r", stdin);
 	// freopen("output.txt", "w", stdout);
 	freopen("error.txt", "w", stderr);
+	ios_base::sync_with_stdio(false);
 	LARGE_INTEGER _frequency, _start_time, _end_time;
 	QueryPerformanceFrequency(&_frequency);
 	QueryPerformanceCounter(&_start_time);
