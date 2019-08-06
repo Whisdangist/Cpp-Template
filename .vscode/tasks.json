@@ -19,6 +19,11 @@
             "group": {
                 "kind": "build",
                 "isDefault": true
+            },
+            "options": {
+                "env": {
+                    "PATH": "${env:PATH};D:\\MinGW\\bin;"
+                }
             }
         }
     ]
